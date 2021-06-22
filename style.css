@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+     --color-1: #BBDDE6;
+     --color-2: #EA774C;
+     --color-3: #686968;
+     --color-4: #FFFFFF;
+}
+html{
+    width: 100%;
+}
+body{
+    background-color: var(--color-1);
+}
+
+/* Mobile View */
+@media (max-width: 599px){
+      main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6px;
+    }
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 12px;
+        max-width: 200px;
+        background-color: var(--color-4);
+        border-top-left-radius: .3rem;
+        border-top-right-radius: .3rem;
+        border-bottom-left-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+        box-shadow: 3px 5px 10px 0.1px rgba(0, 0, 0, .1);
+    }
+    .user-details{
+        padding-top: 20px;
+    }
+    .img-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 12px ;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        padding-bottom: 8px;
+    }
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--color-2);
+    }
+    .name p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+    }
+    .description{
+        padding-bottom: 15px;
+    }
+    .description p {
+        font-family: 'Roboto', sans-serif;
+        line-height: 20px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 8px;
+    }
+    .social-icons .fab{
+        font-size: 12px;
+        color: var(--color-2);
+    }
+}
+
+/* Desktop View */
+@media (min-width: 600px){
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 6px;
+    }
+
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 12px;
+        max-width: 200px;
+        background-color: var(--color-4);
+        border-top-left-radius: .3rem;
+        border-top-right-radius: .3rem;
+        border-bottom-left-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+        box-shadow: 3px 5px 10px 0.1px rgba(0, 0, 0, .1);
+    }
+
+    .user-details {
+        padding-top: 20px;
+    }
+
+    .img-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        padding-bottom: 8px;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: var(--color-2);
+    }
+
+    .name p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+    }
+
+    .description {
+        padding-bottom: 15px;
+    }
+
+    .description p {
+        font-family: 'Roboto', sans-serif;
+        line-height: 20px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 8px;
+    }
+
+    .social-icons .fab {
+        font-size: 12px;
+        color: var(--color-2);
+    }
+}
